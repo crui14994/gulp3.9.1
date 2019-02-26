@@ -1,0 +1,108 @@
+
+/*清除浮动*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+.scrollImg{
+    width: 1000px;
+    height: 250px;
+    //background-color: #002f21;
+    margin: 0px auto;
+    //overflow: hidden;
+    position: relative;
+    .scrollImg-btn{
+        width: 30px;
+        height: 80px;
+        background: rgba(255,255,255,0.5);
+        position: absolute;
+        top: 35%;display: block;
+        cursor: pointer;
+      text-align: center;
+      line-height: 80px;
+    }
+    .sb-left{
+        left: 0%;
+    }
+    .sb-right{
+      right: 0%;
+    }
+    .scroll-box{
+        height: 100%;
+        position: relative;
+        left: 0px;
+        li{
+            float: left;
+            height: 100%;
+            position: relative;
+        }
+    }
+    .scrollImg-ul{
+        position: relative;
+        right: -262px;
+        top: -36px;margin: 0 auto;
+        text-align: center;
+        width: 22%;
+        li{
+            float: left;
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: #E4BDAE;
+            margin-left: 7px;
+            //position: absolute;
+        }
+        .scrollImg-li-active{
+            background-color: #fff;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
