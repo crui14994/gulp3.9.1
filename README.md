@@ -11,8 +11,8 @@
 5. 压缩image
 6. 压缩html
 7. 构建本地服务器 浏览器自动刷新  监听文件变化
-> cnpm install -g gulp@3  全局安装gulp@3
-  cnpm install  安装依赖
+> cnpm install -g gulp@3  全局安装gulp@3     
+  cnpm install  安装依赖     
   gulp server 运行gulp工具     
   
 
