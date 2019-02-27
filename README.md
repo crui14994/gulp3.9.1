@@ -26,3 +26,12 @@
 ```
 cnpm install gulp-babel@7 --save-dev
 ```
+
+> gulp-imagemin 
+
+如果gulp-imagemin 报错，试着将版本降低4x，若还是出现throw er; // Unhandled 'error' event 的问题
+试着用rebuild重新构建包
+
+```
+npm rebuild gulp-imagemin --save-dev
+```
